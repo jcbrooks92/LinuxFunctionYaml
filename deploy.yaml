@@ -1,0 +1,8 @@
+steps:
+- task: AzureFunctionApp@1
+  inputs:
+ azureSubscription: 'Jebrook Sub (7317be97-c6d6-4ef8-9173-809f4614654e)' 
+ appType: functionApp 
+ appName: 'jebrook-linuxconsumptionpython'
+ packaage: 
+ deploymentMethod: zipDeploy
